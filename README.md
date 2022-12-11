@@ -1,0 +1,2 @@
+# bernh.net
+personal website
