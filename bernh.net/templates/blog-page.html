@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block subtitle %}
+  <a href="/">home</a> | <a href="/blog/">blog</a> | {{page.title}}
+{% endblock subtitle %}
+
+{% block content %}
+<h1 class="title is-4">
+  {{ page.title }}
+</h1>
+<p class="subtitle is-4"><strong>{{ page.date }}</strong></p>
+{{ page.content | safe }}
+{% endblock content %}
+

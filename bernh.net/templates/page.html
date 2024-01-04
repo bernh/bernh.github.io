@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block subtitle %}
+  <a href="/">home</a> | {{page.title}}
+{% endblock subtitle %}
+
+
+{% block content %}
+
+<div class="content">
+  {{page.content | safe }}
+</div>
+
+{% endblock content %}

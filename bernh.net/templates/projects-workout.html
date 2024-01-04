@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<!-- load workout WASM module -->
+<script type="module">
+  import init, {wasm_init, wasm_summarize} from './pkg/workout.js';
+
+  async function calc() {
+    var paces = {
+        "E" : document.getElementById("E").value,
+        "M" : document.getElementById("M").value,
+        "HM" : document.getElementById("HM").value,
+        "T" : document.getElementById("T").value,
+        "CV" : document.getElementById("CV").value,
+        "I" : document.getElementById("I").value,
+        "H" : document.getElementById("H").value,
+        "R" : document.getElementById("R").value,
+        "jg" : document.getElementById("jg").value,
+        "jog" : document.getElementById("jog").value,
+        "rst" : document.getElementById("rst").value,
+        "rest" : document.getElementById("rest").value,
+    };
+
+    await init();
+    console.log(paces);
+    wasm_init(paces);
+    var workout = document.getElementById("workout").value;
+    console.log(workout);
+    alert(wasm_summarize(workout));
+  }
+
+  document.getElementById("submitbutton").onclick = calc;
+</script>
+
+{% endblock script %}
+
+{% block content %}
+<h2 class="title is-4">
+  {{ page.title }}
+</h2>
+
+
+<div class="columns">
+
+  <div class="column">
+    <div class="content">
+      {{ page.content | safe }}
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="box">
+      <form id="paces">
+        Paces [min:sec / km] <br>
+        E <input type="text" id ="E" value="5:45"> <br>
+        M <input type="text" id ="M" value="4:45"> <br>
+        HM <input type="text" id ="HM" value="4:35"> <br>
+        T <input type="text" id ="T" value="4:25"> <br>
+        CV <input type="text" id ="CV" value="4:15"> <br>
+        I <input type="text" id ="I" value="4:00"> <br>
+        H <input type="text" id ="H" value="4:00"> <br>
+        R <input type="text" id ="R" value="3:45"> <br>
+        jg <input type="text" id ="jg" value="6:15"> <br>
+        jog <input type="text" id ="jog" value="6:15"> <br>
+        rst <input type="text" id ="rst" value="15:00"> <br>
+        rest <input type="text" id ="rest" value="15:00"> <br>
+        <br>
+        workout <input type="text" id ="workout" value=""> <br>
+        <br>
+        <input type="button" id="submitbutton" value="submit"> <br>
+        <br>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+{% endblock content %}
+
