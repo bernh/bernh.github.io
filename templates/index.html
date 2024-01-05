@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="title">
+  bernhard's little universe
+</h1>
+<p class="subtitle">
+  Not sure if there is something interesting to see here. You are welcome anyway.
+</p>
+
+<div class="columns">
+  <div class="column">
+    <div class="box">
+      <h2 class="subtitle">me</h2>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fa-solid fa-user"></i>
+        </span>
+        <span>Bernhard Leiner</span>
+      </span><br>            
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fa-solid fa-house"></i>
+        </span>
+        <span>Taborstraße 57/1/16, 1020 Wien</span>
+      </span><br>            
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fa-solid fa-phone"></i>
+        </span>
+        <span>+43 650 9948267</span>
+      </span><br>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fa-solid fa-at"></i>
+        </span>
+        <span>bleiner (at) gmail.com</span>
+      </span><br>
+    
+      <br>
+    
+      <span class="icon is-large">
+          <a rel="me" href="https://github.com/bernh"><i class="fa-2x fa-brands fa-github"></i></a>
+      </span>
+      <span class="icon is-large">
+          <a rel="me" href="https://fosstodon.org/@bernh"><i class="fa-2x fa-brands fa-mastodon"></i></a>
+      </span>
+      <span class="icon is-large">
+          <a rel="me" href=https://www.linkedin.com/in/bernhard-leiner-72590883/"><i class="fa-2x fa-brands fa-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="box">
+      <h2 class="subtitle">bernh.net</h2>
+        After an initial PHP version, a couple of experiments with Python web frameworks (Pyramid, Django) and 
+        an excurse to static generation with Haskell (hakyll), a step back to static handwritten html this
+        page is now using <a href="https://getzola.org">zola</a> for static generation. 
+    </div>
+  </div>
+</div>
+{% endblock content %}
