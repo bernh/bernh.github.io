@@ -81,7 +81,7 @@
         <span class="icon">
           <i class="fa-solid fa-house"></i>
         </span>
-        <span>Taborstraße 57/1/16, 1020 Wien</span>
+        <span>Taborstraße 57/1/16, 1020 Wien, Austria</span>
       </span><br>            
       <span class="icon-text">
         <span class="icon">
@@ -93,7 +93,12 @@
         <span class="icon">
           <i class="fa-solid fa-at"></i>
         </span>
-        <span>bleiner (at) gmail.com</span>
+        <script>
+          user = 'bernhard';
+          site = 'bernh.net';
+          document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+          document.write(user + '@' + site + '</a>');
+        </script>
       </span><br>
     
       <br>
@@ -113,9 +118,9 @@
   <div class="column">
     <div class="box">
       <h2 class="subtitle">bernh.net</h2>
-        After an initial PHP version, a couple of experiments with Python web frameworks (Pyramid, Django) and 
+        After an initial PHP version, a couple of experiments with Python web frameworks (Pyramid, Django)  
         an excurse to static generation with Haskell (hakyll), a step back to static handwritten html this
-        page is now using <a href="https://getzola.org">zola</a> for static generation. 
+        page is now again using a static site generation framework (<a href="https://getzola.org">zola</a>). 
     </div>
   </div>
 </div>
