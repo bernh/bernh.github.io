@@ -4,8 +4,27 @@
     <link href="https://bernh.net/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://bernh.net"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-05T00:00:00+00:00</updated>
+    <updated>2024-02-02T00:00:00+00:00</updated>
     <id>https://bernh.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>De-Google my life</title>
+        <published>2024-02-02T00:00:00+00:00</published>
+        <updated>2024-02-02T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bernh.net/blog/degoogle-kick-off/" type="text/html"/>
+        <id>https://bernh.net/blog/degoogle-kick-off/</id>
+        
+        <content type="html">&lt;p&gt;Is it too late to set New Year&#x27;s resolutions? I don&#x27;t believe so! My new goal for
+2024 is to #DeGoogle my life. I&#x27;ve replaced Twitter with Mastodon and have ceased 
+using Reddit in 2023, so this sounds like a logical continuation.&lt;&#x2F;p&gt;
+&lt;p&gt;My 18-year-old self would be proud of me. Back in 1999, I abandoned Microsoft and 
+Windows simply out of principle;-) I may not be as hardcore anymore and will make 
+some exceptions at the end, but let&#x27;s see where this journey takes me...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Rewrite this site - yet another time</title>
         <published>2024-01-05T00:00:00+00:00</published>
