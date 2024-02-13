@@ -4,8 +4,44 @@
     <link href="https://bernh.net/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://bernh.net"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-02-02T00:00:00+00:00</updated>
+    <updated>2024-02-13T00:00:00+00:00</updated>
     <id>https://bernh.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>De-Google - Step 1: email</title>
+        <published>2024-02-13T00:00:00+00:00</published>
+        <updated>2024-02-13T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bernh.net/blog/degoogle-email/" type="text/html"/>
+        <id>https://bernh.net/blog/degoogle-email/</id>
+        
+        <content type="html">&lt;p&gt;I was pretty exited when I managed to get my gmail adress back in November 2004.
+At this point of time invitations (yes, gmail was invite only for a couple of 
+months) have been highly desired. I switched from an &lt;a href=&quot;https:&#x2F;&#x2F;www.gmx.com&quot;&gt;GMX&lt;&#x2F;a&gt; 
+account with something like 10 or maybe 50 MBs of mailbox size and the 1 GB 
+offering from google was just amazing. &lt;&#x2F;p&gt;
+&lt;p&gt;After having the same email adress for almost 20 years I don&#x27;t really see an
+option to completely move on. I could of course automatically forward everything
+to a new adress but so far I decided on a differnt approach:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;create new @bernh.net mailboxes
+&lt;ul&gt;
+&lt;li&gt;one for &amp;quot;official&amp;quot; stuff connected to banking and government services&lt;&#x2F;li&gt;
+&lt;li&gt;one new main account for personal emails and &amp;quot;important&amp;quot; accounts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;keep the rest on gmail for now and only gradually move stuff over if I somehow 
+consider it relevant.
+&lt;ul&gt;
+&lt;li&gt;gmail will be kept forever at very least for throw-away accounts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Not 100% satisfied here but practicality beats purity here.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>De-Google my life</title>
         <published>2024-02-02T00:00:00+00:00</published>
