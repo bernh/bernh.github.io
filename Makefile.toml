@@ -1,0 +1,18 @@
+[tasks.build]
+command = "zola"
+args = ["build"]
+
+[tasks.add]
+command = "git"
+args = ["add", "-A"]
+
+[tasks.commit]
+command = "git"
+args = ["commit", "-m", "publish"]
+
+[tasks.push]
+command = "git"
+args = ["push"]
+
+[tasks.publish]
+dependencies = ["build", "add", "commit", "push"]
