@@ -16,7 +16,6 @@ For the moment Mastadon feels like the right platform to use for short term comm
 
 And of course for linking to this blog whenever I feel like it. This brings me to some 
 other aspect: including potential comments on Mastadon back on this site. I found some 
-nice samples how to integrate this with zola but I will skip this. Will check if I can 
-just add a comment counter here and link to Mastadon. This sounds actually like a good idea.
-
+nice examples how to integrate this with zola but I guess I will skip this.
+May check at some point if I can just add a comment counter here and link to Mastadon. 
 
