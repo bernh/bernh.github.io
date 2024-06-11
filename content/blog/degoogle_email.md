@@ -14,8 +14,9 @@ option to completely move on. I could of course automatically forward everything
 to a new adress but so far I decided on a differnt approach:
 
 - create new @bernh.net mailboxes
-    - one for "official" stuff connected to banking and government services
-    - one new main account for personal emails and "important" accounts
+    - one for official stuff connected to banking and government services
+    - one new main account for personal emails
+    - one for "important" and accounts. 
 - keep the rest on gmail for now and only gradually move stuff over if I somehow 
   consider it relevant.
     - gmail will be kept forever at very least for throw-away accounts
