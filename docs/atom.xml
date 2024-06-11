@@ -4,8 +4,34 @@
     <link href="https://bernh.net/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://bernh.net"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-02-13T00:00:00+00:00</updated>
+    <updated>2024-06-11T00:00:00+00:00</updated>
     <id>https://bernh.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>IndieWeb and Mastadon Integration</title>
+        <published>2024-06-11T00:00:00+00:00</published>
+        <updated>2024-06-11T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bernh.net/blog/2024-06-mastadon-and-indieweb/" type="text/html"/>
+        <id>https://bernh.net/blog/2024-06-mastadon-and-indieweb/</id>
+        
+        <content type="html">&lt;p&gt;Recently re-read some articles and posts about the &lt;a href=&quot;https:&#x2F;&#x2F;indieweb.org&quot;&gt;IndieWeb&lt;&#x2F;a&gt;
+movement and briefly thought about re-writing this site again from scratch to 
+consider their &lt;a href=&quot;https:&#x2F;&#x2F;indieweb.org&#x2F;POSSE&quot;&gt;POSSE&lt;&#x2F;a&gt; advice. And maybe use a real CMS
+instead of a static site generator.&lt;&#x2F;p&gt;
+&lt;p&gt;Luckily I didn&#x27;t pull the trigger immediately and nuked this page because I realized
+that I&#x27;m perfectly fine with some stuff I write not fully under my control and potentially
+vanishing in the future. Not everything is worth to be archived here. Actually, almost 
+nothing is, as you can immediately notice when looking at the frequency of my blog posts.
+For the moment Mastadon feels like the right platform to use for short term communication.&lt;&#x2F;p&gt;
+&lt;p&gt;And of course for linking to this blog whenever I feel like it. This brings me to some 
+other aspect: including potential comments on Mastadon back on this site. I found some 
+nice samples how to integrate this with zola but I will skip this. Will check if I can 
+just add a comment counter here and link to Mastadon. This sounds actually like a good idea.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>De-Google - Step 1: email</title>
         <published>2024-02-13T00:00:00+00:00</published>
@@ -13,8 +39,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://bernh.net/blog/degoogle-email/" type="text/html"/>
-        <id>https://bernh.net/blog/degoogle-email/</id>
+        <link rel="alternate" href="https://bernh.net/blog/2024-02-degoogle-email/" type="text/html"/>
+        <id>https://bernh.net/blog/2024-02-degoogle-email/</id>
         
         <content type="html">&lt;p&gt;I was pretty exited when I managed to get my gmail adress back in November 2004.
 At this point of time invitations (yes, gmail was invite only for a couple of 
@@ -50,8 +76,8 @@ consider it relevant.
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://bernh.net/blog/degoogle-kick-off/" type="text/html"/>
-        <id>https://bernh.net/blog/degoogle-kick-off/</id>
+        <link rel="alternate" href="https://bernh.net/blog/2024-02-degoogle-kick-off/" type="text/html"/>
+        <id>https://bernh.net/blog/2024-02-degoogle-kick-off/</id>
         
         <content type="html">&lt;p&gt;Is it too late to set New Year&#x27;s resolutions? I don&#x27;t believe so! My new goal for
 2024 is to #DeGoogle my life. I&#x27;ve replaced Twitter with Mastodon and have ceased 
@@ -69,8 +95,8 @@ some exceptions at the end, but let&#x27;s see where this journey takes me...&lt
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://bernh.net/blog/rewrite/" type="text/html"/>
-        <id>https://bernh.net/blog/rewrite/</id>
+        <link rel="alternate" href="https://bernh.net/blog/2024-01-rewrite/" type="text/html"/>
+        <id>https://bernh.net/blog/2024-01-rewrite/</id>
         
         <content type="html">&lt;p&gt;Yet another time that I rewrote this page basically from scratch. Basic motivation
 this time is the idea to start a semi-regular blog. Chances that this will really 

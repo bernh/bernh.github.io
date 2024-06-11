@@ -7,16 +7,20 @@
         <loc>https://bernh.net/blog/</loc>
     </url>
     <url>
-        <loc>https://bernh.net/blog/degoogle-email/</loc>
+        <loc>https://bernh.net/blog/2024-01-rewrite/</loc>
+        <lastmod>2024-01-05</lastmod>
+    </url>
+    <url>
+        <loc>https://bernh.net/blog/2024-02-degoogle-email/</loc>
         <lastmod>2024-02-13</lastmod>
     </url>
     <url>
-        <loc>https://bernh.net/blog/degoogle-kick-off/</loc>
+        <loc>https://bernh.net/blog/2024-02-degoogle-kick-off/</loc>
         <lastmod>2024-02-02</lastmod>
     </url>
     <url>
-        <loc>https://bernh.net/blog/rewrite/</loc>
-        <lastmod>2024-01-05</lastmod>
+        <loc>https://bernh.net/blog/2024-06-mastadon-and-indieweb/</loc>
+        <lastmod>2024-06-11</lastmod>
     </url>
     <url>
         <loc>https://bernh.net/drafts/</loc>
