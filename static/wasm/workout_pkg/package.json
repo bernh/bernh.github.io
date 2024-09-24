@@ -1,0 +1,17 @@
+{
+  "name": "workout",
+  "collaborators": [
+    "Bernhard Leiner <bleiner@gmail.com>"
+  ],
+  "version": "0.6.0",
+  "files": [
+    "workout_bg.wasm",
+    "workout.js",
+    "workout.d.ts"
+  ],
+  "module": "workout.js",
+  "types": "workout.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
