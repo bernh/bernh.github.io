@@ -1,0 +1,46 @@
+<!-- simple test html file for running via wasm in the browser -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  <!-- Disable zooming: -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+
+  <style>
+    html, body { height: 100%; width: 100% }
+  </style>
+
+  <body>
+    <script type="module">
+      import init, {wasm_init, wasm_summarize, wasm_gui_create} from './pkg/workout.js';
+
+      async function run() {
+        var paces = {
+            "Easy" : "5:40",
+            "Tempo" : "4:35",
+            "jog" : "6:10",
+        };
+
+        // WASM module init
+        // await init();
+        // wasm_init(paces);
+        // console.log(wasm_summarize("10 Easy"));
+
+        // // re-init WASM module and re-set the pace configuration
+        // await init();
+        // wasm_init(paces);
+        // console.log(wasm_summarize("1 Easy + 20 min Tempo + 1 Easy"));
+
+        await init();
+        wasm_gui_create();
+      }
+
+      run();
+    </script>
+
+    <canvas id="egui_canvas_id" width="400" height="500"> </canvas>
+    
+  </body>
+</html>

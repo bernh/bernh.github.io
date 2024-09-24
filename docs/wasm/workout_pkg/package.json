@@ -1,5 +1,6 @@
 {
   "name": "workout",
+  "type": "module",
   "collaborators": [
     "Bernhard Leiner <bleiner@gmail.com>"
   ],
@@ -9,7 +10,7 @@
     "workout.js",
     "workout.d.ts"
   ],
-  "module": "workout.js",
+  "main": "workout.js",
   "types": "workout.d.ts",
   "sideEffects": [
     "./snippets/*"
