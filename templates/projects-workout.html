@@ -4,8 +4,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
+  <!-- workaround for egui issue, see https://github.com/emilk/egui/issues/4060 -->
   <style>
-    html, body { height: 100%; width: 100% }
+    canvas { position: initial !important; top: unset !important; }
   </style>
 
 <!-- load workout WASM module -->
@@ -39,13 +40,13 @@
 
   <div class="column">
     <div class="content">
-      {{ page.content | safe }}
+      <canvas id="egui_canvas_id" width="500" height="500"> </canvas>
     </div>
   </div>
 
   <div class="column">
-    <div class="box">
-      <canvas id="egui_canvas_id" width="500" height="500"> </canvas>
+    <div class="content">
+      {{ page.content | safe }}
     </div>
   </div>
 

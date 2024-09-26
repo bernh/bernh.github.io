@@ -35,8 +35,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
+  <!-- workaround for egui issue, see https://github.com/emilk/egui/issues/4060 -->
   <style>
-    html, body { height: 100%; width: 100% }
+    canvas { position: initial !important; top: unset !important; }
   </style>
 
 <!-- load workout WASM module -->
@@ -93,30 +94,26 @@
 
   <div class="column">
     <div class="content">
-      <p>During my first (and second) marathon training cycle 2016 I used Jack Daniels 2Q training plans 
-is a bit on the complex side for individual workouts. </p>
-<p>Workouts such as <code>9.6E + 5 * (3 min I + 2 min jog) + 4 * (1min R + 2 min jog) + 3.2E</code>
-or  <code>45 min E + 2 * (3.2T + 2 min rest) + 1.6T + 1.6E</code> are not only difficult to remember
-but it's actually pretty difficult to judge the overall duration and overall distance. </p>
-<p>Since I was playing around with the Rust programming language at this time I started a
-<a href="https://bernh.net/projects/workout/%22https://github.com/bernh/workout%22">parser</a> for the workout syntax with the final goal
-of generating <em>fit</em> files compatible with my Garmin running watch. (The fit files describes the
-workout steps and your watch then guides you thorugh the different steps)</p>
-<p>Life got into the way and I never managed to actually implement the generation of the fit files
-but I implemented at least the parser and the calculation of overall duration and distance which was 
-also useful.</p>
-<p>Over the years, whenever I had the urge to dust off my Rust I came back to this project. This typically
-included making it work with new Rust versions, updating to new versions of dependencies, doing cosmetic
-changes, etc.</p>
-<p>In 2023 it was time to try Web Assembly and can see the results here: Some very primitive HTML and javascript
-using the Rust implementation via Wasm. </p>
-
+      <canvas id="egui_canvas_id" width="500" height="500"> </canvas>
     </div>
   </div>
 
   <div class="column">
-    <div class="box">
-      <canvas id="egui_canvas_id" width="500" height="500"> </canvas>
+    <div class="content">
+      <p>During my first (and second) marathon training cycle 2016 I used the
+<a href="https://en.wikipedia.org/wiki/Jack_Daniels_(coach)">Jack Daniels</a> 
+2Q training plans which are pretty much on on the complex side for individual workouts. </p>
+<p>Workouts such as <code>9.6E + 5 * (3 min I + 2 min jog) + 4 * (1min R + 2 min jog) + 3.2E</code>
+are not only difficult to remember but it's actually pretty difficult to judge the overall duration and 
+overall distance. </p>
+<p>Since I was playing around with the Rust programming language at this time I started a
+<a href="https://bernh.net/projects/workout/%22https://github.com/bernh/workout%22">CLI tool</a> able to parse the workout syntax and calculate total time
+and distance.</p>
+<p>This was 2016, just a couple of months after Rust 1.0 was released. I have maintained the code over the
+years (including updating Rust versions, dependencies and rewriting the parsing code 3 times). 
+8 years later I also wrote a simple GUI that is embedded on this page 
+(with <a href="https://github.com/emilk/egui">egui</a>, all code compiled to WASM).</p>
+
     </div>
   </div>
 

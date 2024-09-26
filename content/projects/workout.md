@@ -4,26 +4,20 @@ summary = "Long term toy project which I use to play around with Rust and WebAss
 +++
 
 
-During my first (and second) marathon training cycle 2016 I used Jack Daniels 2Q training plans 
-is a bit on the complex side for individual workouts. 
+During my first (and second) marathon training cycle 2016 I used the
+[Jack Daniels](https://en.wikipedia.org/wiki/Jack_Daniels_(coach)) 
+2Q training plans which are pretty much on on the complex side for individual workouts. 
 
 Workouts such as `9.6E + 5 * (3 min I + 2 min jog) + 4 * (1min R + 2 min jog) + 3.2E`
-or  `45 min E + 2 * (3.2T + 2 min rest) + 1.6T + 1.6E` are not only difficult to remember
-but it's actually pretty difficult to judge the overall duration and overall distance. 
+are not only difficult to remember but it's actually pretty difficult to judge the overall duration and 
+overall distance. 
 
 Since I was playing around with the Rust programming language at this time I started a
-[parser]("https://github.com/bernh/workout") for the workout syntax with the final goal
-of generating *fit* files compatible with my Garmin running watch. (The fit files describes the
-workout steps and your watch then guides you thorugh the different steps)
+[CLI tool]("https://github.com/bernh/workout") able to parse the workout syntax and calculate total time
+and distance.
 
-Life got into the way and I never managed to actually implement the generation of the fit files
-but I implemented at least the parser and the calculation of overall duration and distance which was 
-also useful.
-
-Over the years, whenever I had the urge to dust off my Rust I came back to this project. This typically
-included making it work with new Rust versions, updating to new versions of dependencies, doing cosmetic
-changes, etc.
-
-In 2023 it was time to try Web Assembly and can see the results here: Some very primitive HTML and javascript
-using the Rust implementation via Wasm. 
+This was 2016, just a couple of months after Rust 1.0 was released. I have maintained the code over the
+years (including updating Rust versions, dependencies and rewriting the parsing code 3 times). 
+8 years later I also wrote a simple GUI that is embedded on this page 
+(with [egui](https://github.com/emilk/egui), all code compiled to WASM).
 
