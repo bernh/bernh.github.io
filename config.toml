@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://bernh.net"
 title = "bernhard's little universe"
-output_dir = "docs"
+output_dir = "bernh.net"
 generate_feed = true
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
